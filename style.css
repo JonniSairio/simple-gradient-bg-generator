@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #346a93, #000000); /* Standard syntax */
+}
+
+.fa-arrow-down {
+  color: #fff;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px #111;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-shadow: 2px 2px 5px #111;
+}
+
+h2,
+h4 {
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+  text-shadow: 2px 2px 5px #111;
+  margin: 20px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-align: center;
+
+  color: #fff;
+  text-shadow: 2px 2px 5px #111;
+}
+
+.color1,
+.color2 {
+  width: 150px;
+  height: 50px;
+  transition: all 0.3s ease;
+}
+
+.color1:hover,
+.color2:hover {
+  transform: scale(1.05);
+}
+
+input[type="color"] {
+  border-radius: 10px !important;
+  border-color: #111;
+  border-width: 1px;
+}
+
+.column {
+  display: inline-block;
+  margin: 0 20px 0 20px;
+}
+
+.row {
+  margin-top: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+  .row {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h2,
+  h4 {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  h3 {
+    font-size: 1rem;
+  }
+}
